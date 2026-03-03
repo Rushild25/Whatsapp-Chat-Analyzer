@@ -35,7 +35,7 @@ This application allows users to upload exported WhatsApp chat files (`.txt`) an
 ---
 
 ## 🏗 Project Architecture
-Whatsapp Chat Analyzer/
+Whatsapp Chat Analyzer
 │
 ├── app.py
 ├── parser.py
@@ -103,5 +103,6 @@ streamlit run app.py
 ---
 
 ## 📜 License
+
 
 This project is open-source and available under the MIT License.
