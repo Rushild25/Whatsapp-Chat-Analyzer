@@ -34,29 +34,33 @@ This application allows users to upload exported WhatsApp chat files (`.txt`) an
 
 ---
 
-## 🏗 Project Architecture
+# Project Architecture
+
+## Whatsapp Chat Analyzer
+```
 Whatsapp Chat Analyzer
 │
-├── app.py
-├── parser.py
-├── helper.py
-├── visualizer.py
+├── app.py 
+├── parser.py 
+├── helper.py 
+├── visualizer.py 
 └── README.md
-
+```
 
 ## Modular Flow:
-
-User Upload
+```
+User Upload 
     ↓
-Parser Layer
-    ↓
-Feature Engineering Layer
+Parser Layer 
+    ↓ 
+Feature Engineering Layer 
     ↓
 Analytics Layer
-    ↓
-Visualization Layer
-    ↓
+    ↓ 
+Visualization Layer 
+    ↓ 
 Streamlit UI Rendering
+```
 
 ---
 
@@ -106,3 +110,4 @@ streamlit run app.py
 
 
 This project is open-source and available under the MIT License.
+
